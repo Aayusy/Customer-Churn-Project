@@ -19,7 +19,7 @@ def load_data():
 loaded_model, encoders, scaler_data = load_data()
 
 st.title("📊 Customer Churn Prediction App")
-st.write("Customer ki details neeche bharein aur check karein ki woh churn karega ya nahi.")
+st.write("Please fill in the customer details below to check whether the customer will churn or not")
 
 # Create a form using Streamlit columns
 with st.form("churn_form"):
